@@ -8,7 +8,7 @@ public class Questao14 {
 		System.out.println("Digite o kg dos peixes pescados por João:");
 		Scanner scan = new Scanner(System.in);
 		double peso = scan.nextDouble();
-		if(peso >= 50) {
+		if(peso > 50) {
 			excesso = (peso - 50);
 			multa = (int)excesso * 4;
 		}
